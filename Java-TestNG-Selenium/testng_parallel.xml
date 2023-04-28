@@ -1,0 +1,18 @@
+<suite thread-count="2" name="LambaTestSuite" parallel="tests">
+     <test name="WIN10-TEST">
+     <parameter name="browser" value="Chrome"/>
+     <parameter name="version" value="86.0"/>
+     <parameter name="platform" value="Windows 10"/>
+     <classes>
+          <class name="com.lambdatest.TestDemo1"/>
+     </classes>
+ </test> <!-- Test -->
+<test name="MAC-TEST">
+     <parameter name="browser" value="MicrosoftEdge"/>
+     <parameter name="version" value="87.0"/>
+     <parameter name="platform" value="macOS High Sierra"/>
+     <classes>
+          <class name="com.lambdatest.TestDemo2"/>
+     </classes>
+</test> <!-- Test -->
+     </suite>
